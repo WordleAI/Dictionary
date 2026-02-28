@@ -50,7 +50,6 @@ The Python implementation provides expanded functionality and automation feature
 |----------------------------------| -------|
 | NYTimes          | Yes        |
 | Wordle Unlimited          | Yes        
-| Automatic Solver (NYTimes)       | No         |
 | Automatic Solver (Wordle Unlimited)     | Yes |
 | Colored & Formatted Logs    | Yes |
 | Performance Stats  | Yes            |
