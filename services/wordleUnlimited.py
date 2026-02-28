@@ -29,7 +29,7 @@ def main(game_attempts, use_threading=False):
 
         start_time = time.time()
 
-        cprint(f"[wordle-unlimited-service] Attempting Puzzle {i+1}...", color="blue", attrs=['bold']) 
+        cprint(f"[WordleSolver/Unlimited] Attempting Puzzle {i+1}...", color="blue", attrs=['bold']) 
 
         # Assmuing this launches a new game everytime
         web.delete_all_cookies() # This is done in case the website flags users based on the same cookies (doesn't look like it does)
@@ -41,7 +41,7 @@ def main(game_attempts, use_threading=False):
         
         # Click the dom on the inital 'instructions overlay', although this is not a very 'future proof' solution (i.e. if the website disables alert closing using the empty space)
         print("")
-        cprint(f"[wordle-unlimited-service] Closing Instructions Alert...", color="blue", attrs=['bold'])
+        cprint(f"[WordleSolver/Unlimited] Closing Instructions Alert...", color="blue", attrs=['bold'])
 
         dom = web.find_element(By.TAG_NAME, "body")
         dom.click()
@@ -56,13 +56,13 @@ def main(game_attempts, use_threading=False):
         solutionIndex = 0
 
         print("")
-        cprint(f"[wordle-unlimited-service] Solution: {solution}...", color="white", attrs=['bold'])
+        cprint(f"[WordleSolver/Unlimited] Solution: {solution}...", color="white", attrs=['bold'])
 
         while solutionIndex < 6:
             try:
                 print("")
                 letter = solution[solutionIndex]
-                cprint(f"[wordle-unlimited-service] Typing Letter {letter}...", color="blue", attrs=['bold'])
+                cprint(f"[WordleSolver/Unlimited] Typing Letter {letter}...", color="blue", attrs=['bold'])
                 # print("")
                 dom.send_keys(letter)
                 solutionIndex += 1
@@ -70,9 +70,9 @@ def main(game_attempts, use_threading=False):
                 # Assume that the game ended with the correct solution
                 end_time = time.time()
                 # print("")
-                cprint(f"[wordle-unlimited-service] Solved...", color="green", attrs=['bold'])
+                cprint(f"[WordleSolver/Unlimited] Solved...", color="green", attrs=['bold'])
                 print("")
-                cprint(f"[wordle-unlimited-service] Solved In: {round(end_time - start_time, 3)}s...", color="yellow", attrs=['bold'])
+                cprint(f"[WordleSolver/Unlimited] Solved In: {round(end_time - start_time, 3)}s...", color="yellow", attrs=['bold'])
                 print("")
                 break
 
@@ -82,6 +82,6 @@ def main(game_attempts, use_threading=False):
 
 
     total_end_time = time.time()
-    cprint(f"[wordle-unlimited-service] Total Time Taken: {round(total_end_time - total_start_time, 3)}...", color="magenta", attrs=['bold'])
+    cprint(f"[WordleSolver/Unlimited] Total Time Taken: {round(total_end_time - total_start_time, 3)}...", color="magenta", attrs=['bold'])
     print("")
     
