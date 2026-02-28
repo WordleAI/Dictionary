@@ -36,8 +36,8 @@ The Python implementation provides expanded functionality and automation feature
 
 ## Current Features
 
-| Feature                          | 
-|----------------------------------|
+| Feature                          | Status |
+|----------------------------------| -------|
 | NYTimes          | Yes        |
 | Wordle Unlimited          | Yes        
 | Automatic Solver (NYTimes)       | No         |
