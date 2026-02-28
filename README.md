@@ -46,7 +46,7 @@ The Python implementation provides expanded functionality and automation feature
 
 ## Current Features
 
-| Feature/Services                          | Status |
+| Feature/Services                          | Supported |
 |----------------------------------| -------|
 | NYTimes          | Yes        |
 | Wordle Unlimited          | Yes        
