@@ -1,6 +1,6 @@
 # WordleSolver
 
-This project currently has two implementations: a Python version and a c++ port. While they share a common goal, their feature sets are a bit different.
+This project includes two implementations: a Python version and a C++ port. While both share the same core goal, their features differ slightly. The long-term objective is to move away from reliance on the NYTimes endpoint and towards a universal, independent Wordle-solving solution.
 
 #### C++ Version: https://github.com/gs109111/WordleSolver/tree/cpp
 #### Python Version:  https://github.com/gs109111/WordleSolver/
