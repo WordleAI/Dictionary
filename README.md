@@ -48,8 +48,7 @@ The Python implementation provides expanded functionality and automation feature
 
 | Feature/Services                          | Supported |
 |----------------------------------| -------|
-| NYTimes          | Yes        |
-| Wordle Unlimited          | Yes        
+| NYTimes          | Yes        |  
 | Automatic Solver (Wordle Unlimited)     | Yes |
 | Colored & Formatted Logs    | Yes |
 | Performance Stats  | Yes            |
