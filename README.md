@@ -44,7 +44,7 @@ The Python implementation provides expanded functionality and automation feature
 | Automatic Solver (Wordle Unlimited)     | Yes |
 | Colored & Formatted Logs    | Yes |
 | Performance Stats  | Yes            |
-
+---
 ## Todo
 
 | Feature                          | Notes |
