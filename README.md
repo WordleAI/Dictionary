@@ -94,3 +94,4 @@ Future updates may expand the C++ and Python feature set
 | Performance Stats    | C++                   |
 | Create Header Files?   | C++                   | Are they needed?
 | Other Services   | Python/C++                   | 
+| AI Solver? | Python |
