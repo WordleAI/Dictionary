@@ -2,8 +2,8 @@
 
 This project currently has two implementations: a Python version and a c++ port. While they share a common goal, their feature sets are a bit different.
 
-C++ Version: https://github.com/gs109111/WordleSolver/tree/cpp
-Python Version:  https://github.com/gs109111/WordleSolver/
+#### C++ Version: https://github.com/gs109111/WordleSolver/tree/cpp
+#### Python Version:  https://github.com/gs109111/WordleSolver/
 
 ---
 
