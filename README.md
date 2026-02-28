@@ -47,9 +47,9 @@ The Python implementation provides expanded functionality and automation feature
 
 ## Todo
 
-| Features                          | Notes 
-|----------------------------------|----------------|
-| Add Support For Other Browsers (Selenium)          | Currently only supports Chrome          | 
-| Threading              | Reliability? 
-| Other Services   | 
-| AI Solver? | 
+| Feature                          | Notes |
+|----------------------------------|-------|
+| Add Support For Other Browsers (Selenium) | Currently only supports Chrome |
+| Threading                         | Stability? |
+| Integration with Other Services   | Not yet implemented |
+| AI Solver                         | |
