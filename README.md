@@ -19,6 +19,8 @@ This project includes two implementations: a Python version and a C++ port. Whil
 - Develop a system capable of intelligently guessing answers based solely on a provided word list
 - Reduce external dependencies (i.e. NYTimes) over time
 
+---
+
 ## Word List Sources
  
 - https://github.com/dwyl/english-words
