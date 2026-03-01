@@ -13,3 +13,8 @@ This project includes two implementations: a Python version and a C++ port. Whil
 > Please do **not use this for mass scraping, automated attacks, or commercial purposes**. 
 > The endpoint may change or be removed by NYTimes at any time, which could break this tool.
 ---
+
+## Word List Source
+
+Word list sourced from:  
+https://github.com/dwyl/english-words
