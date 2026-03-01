@@ -16,5 +16,5 @@ This project includes two implementations: a Python version and a C++ port. Whil
 
 ## Word List Source
 
-Word list sourced from:  
+Word list based from:  
 https://github.com/dwyl/english-words
