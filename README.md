@@ -14,6 +14,11 @@ This project includes two implementations: a Python version and a C++ port. Whil
 > The endpoint may change or be removed by NYTimes at any time, which could break this tool.
 ---
 
+### Goal
+
+- Develop a system capable of intelligently guessing answers based solely on a provided word list
+- Reduce external dependencies (i.e. NYTimes) over time
+
 ## Word List Sources
  
 - https://github.com/dwyl/english-words
