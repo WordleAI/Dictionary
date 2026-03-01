@@ -14,7 +14,6 @@ This project includes two implementations: a Python version and a C++ port. Whil
 > The endpoint may change or be removed by NYTimes at any time, which could break this tool.
 ---
 
-## Word List Source
-
-Word list based from:  
-https://github.com/dwyl/english-words
+## Word List Sources
+ 
+- https://github.com/dwyl/english-words
