@@ -7,13 +7,6 @@ This project includes two implementations: a Python version and a C++ port. Whil
 
 ---
 
-> [!WARNING]
-> This project currently uses an **undocumented NYTimes Wordle endpoint** to fetch the latest puzzle answers. 
-> It is intended **for educational purposes only**. 
-> Please do **not use this for mass scraping, automated attacks, or commercial purposes**. 
-> The endpoint may change or be removed by NYTimes at any time, which could break this tool.
----
-
 ### Goals Of This Branch
 
 - Host word lists
