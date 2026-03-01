@@ -16,8 +16,8 @@ This project includes two implementations: a Python version and a C++ port. Whil
 
 ### Goals Of This Branch
 
-- Host a filtered word list
-- Usage of the filtered word list in a system capable of intelligently guessing wordle answers
+- Host word lists
+- Usage of the word lists in a system capable of intelligently guessing wordle answers
 - Reduce external dependencies (i.e. NYTimes) over time
 
 ---
