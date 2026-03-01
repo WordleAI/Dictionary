@@ -14,9 +14,10 @@ This project includes two implementations: a Python version and a C++ port. Whil
 > The endpoint may change or be removed by NYTimes at any time, which could break this tool.
 ---
 
-### Goal
+### Goal Of This Branch
 
-- Develop a system capable of intelligently guessing answers based solely on a provided word list
+- Host a filtered word list
+- Develop a system capable of intelligently guessing answers based solely on the filtered word list
 - Reduce external dependencies (i.e. NYTimes) over time
 
 ---
