@@ -8,7 +8,7 @@ This project includes two implementations: a Python version and a C++ port. Whil
 #### Wordle Python (Game):  https://github.com/gs109111/WordleSolver/tree/game
 ---
 
-### Goals Of This Branch
+## Goals Of This Branch
 
 - Host word lists
 - Usage of the word lists in a system capable of intelligently guessing wordle answers
